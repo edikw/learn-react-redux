@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+}
+label {
+    font-size: 20px;
+}
+input[type=text] {
+    border-radius: 5px;
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  textarea[type=text] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid green;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+form {
+    width: 70%;
+    margin: auto;
+}
+form  button {
+      float: right;
+      background: transparent;
+      border: 1px solid green;
+      padding: 10px;
+      width:80px;
+      border-radius: 5px;
+      color: green;
+  }
+form button:hover{
+    cursor: pointer;
+    background-color: grey;
+    border: 1px solid grey;
+    color: #fff;
+}
