@@ -47,7 +47,7 @@ class addpost extends Component {
                         <textarea name="body" type="text" placeholder="Body" value={this.state.body} onChange={this.onChange}></textarea><br/>
                     </div>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit">Post</button>
                 </form>   
             </div>
         )

@@ -16,12 +16,6 @@ class Posts extends Component {
             this.props.posts.unshift(nextProps.newPost);
         }
     }
-    button(e){
-        e.preventDefault();
-        const id = e.target.value
-        this.props.deleteData(id);
-
-    }
     render(){
         const dataItems = this.props.posts.map(get => (
             <div className="column" key={get.id}>
@@ -37,9 +31,6 @@ class Posts extends Component {
                     <h1 className="title">{get.title}</h1>
                     <h2 className="sub_title">{get.body}</h2>
                     <p className="description">{get.title}</p>
-                    <button>Edit</button>
-                    <button value={get.id}
-                    onClick={this.button.bind(this)}>Delete</button>
                 </div>
                 </div>
             </div>
